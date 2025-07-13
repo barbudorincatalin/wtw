@@ -570,7 +570,7 @@ st.write(f"**Mix energetic pentru {tara_selectata}:**")
 for sursa, procent in tari[tara_selectata].items():
     st.write(f"- {sursa}: {procent}%")
 
-st.write(f"**Emisii Well-to-Tank pentru {tara_selectata}: {emisii_tari[tara_selectata]} gCO₂/kWh**")
+st.write(f"**Emisii CO₂ pentru {tara_selectata}: {emisii_tari[tara_selectata]} gCO₂/kWh**")
 
 # 2. Selectare vehicule pentru comparație
 st.header("Vehicule pentru comparație")
